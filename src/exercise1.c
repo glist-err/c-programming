@@ -9,4 +9,13 @@ int main(int argc, char** argv) {
     for (int i = 0; i < 10; ++i) {
         scanf("%f", &array[i]);
     }
+
+    float sum = 0;
+    int count = 0;
+    for (int i = 0; i < 10; ++i) {
+        sum += array[i];
+        count += 1;
+    }
+
+    printf("Average = %.3f", (sum/(float)count));
 }
