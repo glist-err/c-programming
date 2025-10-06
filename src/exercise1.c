@@ -18,4 +18,6 @@ int main(int argc, char** argv) {
     }
 
     printf("Average = %.3f", (sum/(float)count));
+
+    return 0;
 }
